@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUHASINI DA 1</title>
+</head>
+<body background="https://i.pinimg.com/originals/1f/e4/72/1fe47204e758685d25a102a9bb1ece63.jpg" background-repeat="none" >
+    <font color="#000099">
+    <center>
+    <font face="palatino" size="7" color="#004d00"><h1 align="center" >DREAMSCAPE INTERNSHIP</h1></font>
+    <center><img width="400px" height="400px" src="https://media.discordapp.net/attachments/879377591537127504/1004006937299525652/hiring.png?width=726&height=670" alt="personal details"></center>
+    <form method="get">
+        <br>
+        <fieldset>
+            <legend align="center" >
+               <font size="90">Personal Details</font> 
+            </legend>
+            <label for="fname"><font size="5">Enter Your First name:<sup><font color="red">*</font></sup></font></label><br><br>
+            <input size="50"type="text" id="fname" name="fname" placeholder="Eg: Suhasini" required><br><br>
+            <label for="lname"><font size="5">Enter Your Last name:<sup><font color="red">*</font></sup></font></label><br><br>
+            <input size="50" type="text" id="lname" name="lname" placeholder="Eg: Srivastava" required><br><br>
+            <label for="phone"><font size="5">Enter your phone number:<sup><font color="red">*</font></sup></font></label><br><br>
+            <input size="50" type="tel" id="phone" name="phone" pattern="[+][0-9]{2}-[0-9]{10}" placeholder="Eg: +91-1234567890" required><br><br>
+            <label for="email"><font size="5">Enter your email:<sup><font color="red">*</font></sup></font></label><br><br>
+            <input size="50" type="email" id="email" name="email" placeholder="Eg: abc@gmail.com" required><br><br>
+            <label for="address"><font size="5">Enter your Address:<sup><font color="red">*</font></sup></font></label><br><br>
+            <textarea name="address" placeholder="Eg: house 2, lane1, riverdale" required></textarea><br><br>
+            <label for="gender"><font size="5">Select your Gender:<sup><font color="red">*</font></sup></font></label><br><br>
+            <input type="radio" id="gender" name="gen" value="female" required>
+            <label for="gender">Female</label><br>
+            <input type="radio" id="gender" name="gen" value="male">
+            <label for="dender">Male</label><br>
+            <input type="radio" id="gender" name="gen" value="gen">
+            <label for="gender">Prefer not to say</label><br><br>
+            
+            
+            
+
+        </fieldset>
+        <fieldset>
+            <legend align="center" >
+               <font size="90">Educational Details</font> 
+            </legend>
+            <label for="university"><font size="5">Select Your University name:<sup><font color="red">*</font></sup></font></label><br><br>
+            <select id="college" name="college" size="1">
+                <option value="" disabled selected>Select</option>
+                <option value="VIT Vellore">VIT Vellore</option>
+                <option value="VIT Chennai">VIT Chennai</option>
+                <option value="VIT AP">VIT AP</option>
+                <option value="VIT Bhopal">VIT Bhopal</option>
+              </select><br><br>
+            <label for="year"><font size="5">Select Your Graduation Year:<sup><font color="red">*</font></sup></font></label><br><br>
+            <input list="years" name="years" placeholder="Eg: 2021"required>
+            <datalist id="years">
+            <option value="2021">
+            <option value="2022">
+            <option value="2023">
+            <option value="2024">
+            <option value="2025">
+            </datalist><br><br>
+            <label for="phone"><font size="5">Enter your Current GPA(nearest integer):<sup><font color="red">*</font></sup></font></label><br><br>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="Eg: 9" required><br><br>
+            <label for="degree"><font size="5">Select your Degree:<sup><font color="red">*</font></sup></font></label><br><br>
+            <select id="degree" name="degree" size="1" required>
+                <option value="" disabled selected>Select</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="M.Tech">M.Tech</option>
+                <option value="Phd">Phd</option>
+                <option value="Other">Other</option>
+              </select><br><br>
+            <label for="transcript" accept="application/pdf"><font size="5">Upload your Transcript File: (<i>Only pdf allowed</i>)<sup><font color="red">*</font></sup></font></label><br><br>
+            <input type="file" id="myfile" name="myfile" required><br><br>
+            <label for="resume"><font size="5">Enter your Resume Link: <sup><font color="red">*</font></sup></font></label><br><br>
+            <input type="url" id="resume" name="resume" placeholder="Eg: https://drive.google.com/file=sharing" required><br><br>
+            
+        </fieldset>
+        <fieldset>
+            <legend align="center" >
+               <font size="90">Work Experience</font> 
+            </legend>
+            <label for="cname"><font size="5">Enter Company name:</font></label><br><br>
+            <input size="50"type="text" id="cname" name="cname" placeholder="Eg: Sparks Foundation"><br><br>
+            <label for="role"><font size="5">Enter Your Role:</font></label><br><br>
+            <input type="radio" id="role" name="role" value="SDE Intern">
+            <label for="role">SDE Intern</label><br>
+            <input type="radio" id="role" name="role" value="SDE1">
+            <label for="role">SDE1</label><br>
+            <input type="radio" id="role" name="role" value="SDE2">
+            <label for="role">SDE2</label><br><br>
+            <label for="jobdes"><font size="5">Enter job description:</font></label><br><br>
+            <textarea name="jobdes" maxlength="200"></textarea><br><br>
+            <label for="sd"><font size="5">Enter the start date:</font></label><br><br>
+            <input type="date" id="sd" name="sd"><br><br>
+            <label for="ed"><font size="5">Enter the end date:</font></label><br><br>
+            <input type="date" id="ed" name="ed"><br><br>
+            <label for="preferred"><font size="5">Select your Preferred Locations:</font></label><br><br>
+            <input type="checkbox" id="l1" name="l1" value="Bangalore">
+            <label for="l1"> Bangalore</label><br>
+            <input type="checkbox" id="l2" name="l2" value="Hyderabad">
+            <label for="l2"> Hyderabad</label><br>
+            <input type="checkbox" id="l3" name="l3" value="Delhi">
+            <label for="l3"> Delhi</label><br><br>
+            <label for="skills"><font size="5">Select your Skills:</font></label><br><br>
+            <input type="checkbox" id="s1" name="s1" value="html">
+            <label for="s1"> Html</label><br>
+            <input type="checkbox" id="s2" name="s2" value="CSS">
+            <label for="s2"> CSS</label><br>
+            <input type="checkbox" id="s3" name="s3" value="JS">
+            <label for="l3"> JS</label><br><br>
+
+        </fieldset>
+        <br>
+        
+        <font size="3" color="red"><sup>*</font></sup><font size="2"><i><u>Required Fields</u></i></font>
+        <br>
+        <input type="checkbox" name="ack1" id="ack1" required>I agree to all the <i><b><u>Terms and Conditions.</u></b></i><br>
+        <input type="checkbox" name="ack2" id="ack2" required>I confirm that the information provided by me is true. <br>
+        <br><input type="submit" value="Submit">&emsp;<input type="reset" value="Reset">
+
+
+    </form>
+</center>
+</font>
+</body>
+</html>
